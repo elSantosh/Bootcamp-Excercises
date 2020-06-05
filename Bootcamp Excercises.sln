@@ -45,6 +45,41 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreTestRevision", "PreTestRevision\PreTestRevision.csproj", "{51B20A6B-1C03-4AFE-A865-F3BAC55C98BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap-Excercise", "Bootstrap-Excercise", "{32E253CE-0AFC-4CA6-86D1-BFD7A31F9DEF}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{312E5CE1-5849-4589-ABF1-D0B67EBDC8E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css.map = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css.map
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css.map = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{83B952F6-6ACE-4124-8F1C-B128CA971E75}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.js = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.js
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\npm.js = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\npm.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D73FAE73-9ED7-4773-9DB9-B97B9A6A33B2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff
+		..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2 = ..\..\..\Downloads\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{66CBFEA6-8BEC-417F-B55D-CE2108D0E058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,6 +173,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{312E5CE1-5849-4589-ABF1-D0B67EBDC8E7} = {66CBFEA6-8BEC-417F-B55D-CE2108D0E058}
+		{83B952F6-6ACE-4124-8F1C-B128CA971E75} = {66CBFEA6-8BEC-417F-B55D-CE2108D0E058}
+		{D73FAE73-9ED7-4773-9DB9-B97B9A6A33B2} = {66CBFEA6-8BEC-417F-B55D-CE2108D0E058}
+		{66CBFEA6-8BEC-417F-B55D-CE2108D0E058} = {32E253CE-0AFC-4CA6-86D1-BFD7A31F9DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4229170D-48F1-40D2-90C7-96667AB9C3F9}
