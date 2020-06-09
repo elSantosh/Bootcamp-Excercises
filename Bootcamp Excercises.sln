@@ -48,6 +48,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap-Excercise", "Bootstrap-Excercise", "{32E253CE-0AFC-4CA6-86D1-BFD7A31F9DEF}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		JavascriptExcercise.html = JavascriptExcercise.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{312E5CE1-5849-4589-ABF1-D0B67EBDC8E7}"
