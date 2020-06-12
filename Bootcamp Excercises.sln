@@ -81,6 +81,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{D73FAE73
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{66CBFEA6-8BEC-417F-B55D-CE2108D0E058}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPBDemo", "WPBDemo\WPBDemo.csproj", "{06461DDD-3883-45EA-9237-BFAC8CD12846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{51B20A6B-1C03-4AFE-A865-F3BAC55C98BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51B20A6B-1C03-4AFE-A865-F3BAC55C98BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51B20A6B-1C03-4AFE-A865-F3BAC55C98BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06461DDD-3883-45EA-9237-BFAC8CD12846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06461DDD-3883-45EA-9237-BFAC8CD12846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06461DDD-3883-45EA-9237-BFAC8CD12846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06461DDD-3883-45EA-9237-BFAC8CD12846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
